@@ -20,7 +20,7 @@ Plugins:
 * [Buffer Tabs](https://github.com/akinsho/bufferline.nvim)
 * [Parenthesis Manipulation](https://github.com/tpope/vim-surround)
 * [Comment code](https://github.com/tpope/vim-commentary)
-* [Autoclosing of (, {, [, etc](https://github.com/m4xshen/autoclose.nvim)
+* [Autoclosing of (, {, \[, etc](https://github.com/m4xshen/autoclose.nvim)
 
 
 Config file structure:

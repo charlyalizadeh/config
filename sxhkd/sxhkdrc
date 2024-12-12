@@ -4,7 +4,7 @@
 
 # terminal emulator
 alt + Tab
-    kitty
+    alacritty
 # program launcher
 alt + d
 	rofi -show drun -show-icons -lines 3

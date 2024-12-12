@@ -12,15 +12,15 @@
 
 ## Neovim configuration
 
-Plugin Manager: [lazy.nvim](https://github.com/folke/lazy.nvim)
+Plugin Manager: [lazy.nvim](https://github.com/folke/lazy.nvim)  
 Plugins:
-    * [VSCode colorscheme](https://github.com/Mofiqul/vscode.nvim)
-    * [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
-    * [Indent blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
-    * [Buffer Tabs](https://github.com/akinsho/bufferline.nvim)
-    * [Parenthesis Manipulation](https://github.com/tpope/vim-surround)
-    * [Comment code](https://github.com/tpope/vim-commentary)
-    * [Autoclosing of (, {, [, etc](https://github.com/m4xshen/autoclose.nvim)
+* [VSCode colorscheme](https://github.com/Mofiqul/vscode.nvim)
+* [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
+* [Indent blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
+* [Buffer Tabs](https://github.com/akinsho/bufferline.nvim)
+* [Parenthesis Manipulation](https://github.com/tpope/vim-surround)
+* [Comment code](https://github.com/tpope/vim-commentary)
+* [Autoclosing of (, {, [, etc](https://github.com/m4xshen/autoclose.nvim)
 
 
 Config file structure:

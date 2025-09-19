@@ -16,11 +16,10 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     spec = {
-        -- VSCode Colorscheme
+        -- Oxocarbon colorscheme
         {
-            "Mofiqul/vscode.nvim",
-            lazy = false,
-            config = function() vim.cmd.colorscheme "vscode" end,
+            "nyoom-engineering/oxocarbon.nvim",
+            config = function() vim.cmd.colorscheme "oxocarbon" end,
             priotity = 1000
         },
         -- TreeSitter for highlighting

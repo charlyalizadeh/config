@@ -7,7 +7,7 @@ alt + Tab
     alacritty
 # program launcher
 alt + d
-	rofi -show drun -show-icons -lines 3
+	rofi -show drun -display-drun "" -filter ""
 
 # make sxhkd reload its configuration files:
 alt + Escape
@@ -82,6 +82,9 @@ alt + {o,i}
 # focus or send to the given desktop
 alt + {ampersand,eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
 	bspc desktop -f '^{1-9,0}'
+
+#alt + {1,2,3,4,5,6,7,8,9,0}
+#	bspc desktop -f '^{1-9,0}'
 alt + shift + {1-9,0}
 	bspc node -d '^{1-9,0}'
 #

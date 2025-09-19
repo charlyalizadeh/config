@@ -1,0 +1,32 @@
+colors:
+  primary:
+    background: '0x161616' # darkest bg
+    foreground: '0xf2f4f8' # light fg
+
+  cursor:
+    text:   '0x161616'
+    cursor: '0xf2f4f8'
+
+  selection:
+    text:       '0xf2f4f8'
+    background: '0x2a2a2a'
+
+  normal:
+    black:   '0x262626'
+    red:     '0xff7eb6'
+    green:   '0x42be65'
+    yellow:  '0xf1c21b'
+    blue:    '0x33b1ff'
+    magenta: '0xbe95ff'
+    cyan:    '0x3ddbd9'
+    white:   '0xf2f4f8'
+
+  bright:
+    black:   '0x393939'
+    red:     '0xff7eb6'
+    green:   '0x42be65'
+    yellow:  '0xf1c21b'
+    blue:    '0x33b1ff'
+    magenta: '0xbe95ff'
+    cyan:    '0x3ddbd9'
+    white:   '0xffffff'

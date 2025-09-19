@@ -1,0 +1,22 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/oxocarbon.toml"
+]
+[font]
+size = 18
+
+[font.bold]
+family = "Input Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Input Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Input Mono"
+style = "Italic"
+
+[font.normal]
+family = "Input Mono"
+style = "Regular"

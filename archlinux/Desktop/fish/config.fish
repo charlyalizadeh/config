@@ -28,15 +28,19 @@ function fish_mode_prompt
   set_color normal
 end
 
-function fish_prompt
-   echo (pwd)'> '
-end
-
 set fish_greeting
 
 function git_add_deleted
     git status | grep "deleted:" | cut -d':' -f2  | xargs -t   -I {}  git add  -u "{}"
 end
 
-alias ww="cc -Wall -Wextra -Werror "
+alias ww="cc -Wall -Wextra -Werror"
 
+function y
+	set tmp (mktemp -t "yazi-cwd.XXXXXX")
+	yazi $argv --cwd-file="$tmp"
+	if read -z cwd < "$tmp"; and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
+		builtin cd -- "$cwd"
+	end
+	rm -f -- "$tmp"
+end

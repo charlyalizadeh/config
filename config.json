@@ -1,0 +1,9 @@
+[
+    { "name": "bspwm" },
+    { "name": "sxhkd" },
+    { "name": "alacritty" },
+    { "name": "nvim" },
+    { "name": "fish", "ignore": ["*function*", "*completions*", "*conf.d*"] },
+    { "name": "rofi" },
+    { "name": "polybar" }
+]

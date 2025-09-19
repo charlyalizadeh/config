@@ -39,3 +39,11 @@ keymap("x", "J", ":m '>+1<CR>gv=gv", opts)
 
 -- Terminal mode --
 keymap("t", ",<Esc>", "<C-\\><C-N>", opts)
+
+-- Run --
+vim.api.nvim_create_autocmd('FileType', {
+    pattern = { 'python', 'py' },
+    callback = function(args)
+        keymap("n", "<F5>", ":split | terminal python % <CR>")
+    end
+})
